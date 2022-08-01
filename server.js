@@ -8,7 +8,7 @@ var fs=require("fs");
 app.use(express.static(path.join('public')));
 
 app.get('/', function (req, res) {
-   res.sendFile(path.join('index.html'));
+   res.sendFile(path.join('public/index.html'));
 });
  
 
